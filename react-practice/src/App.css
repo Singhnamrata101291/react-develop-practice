@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+td, th {
+  border: 1px solid #61dafb;
+  padding: 8px;
+}
+
+input {
+  width: 95%;
+  padding: 6px;
+}
+
+button {
+  margin: 2px;
+  padding: 4px 10px;
+  color: red;
+}
