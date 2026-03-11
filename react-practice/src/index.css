@@ -11,3 +11,48 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+* { box-sizing: border-box; }
+body { font-family: system-ui, Arial, sans-serif; margin: 20px; color: #222; background: #fafafa; }
+
+h2 { margin: 0 0 10px; }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 14px;
+  background: #fff;
+}
+
+thead th {
+  background: #f5f5f5;
+}
+
+td, th {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+input[type="text"], input[type="number"] {
+  width: 100%;
+  padding: 6px 8px;
+}
+
+button {
+  margin: 2px;
+  padding: 6px 12px;
+  border: 1px solid #1976d2;
+  background: #1976d2;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button.secondary { background: #eee; color: #222; border-color: #bbb; }
+button.danger { background: #c62828; border-color: #c62828; }
+button:disabled { opacity: 0.6; cursor: not-allowed; }
+
+tfoot th {
+  background: #fafafa;
+}
+
+.container { max-width: 980px; margin: 0 auto; }
+.row-actions { white-space: nowrap; }
